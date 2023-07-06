@@ -6,6 +6,7 @@ function isFish(pet: Fish | Bird): pet is Fish{
     // return true;
 }
 
+
 function move(animal: Fish | Bird){
     if(isFish(animal)){
         return animal.swim()
@@ -23,5 +24,7 @@ const zero = 0
 if(isNull(empty)){
     empty
 }
+
+
 
 export  {}

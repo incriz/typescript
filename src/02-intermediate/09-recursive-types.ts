@@ -1,6 +1,6 @@
 type NestedNumbers = number | NestedNumbers[];
 
-const nums: NestedNumbers = [1,2 [1, 2 [12, 123]]]
+// const nums: NestedNumbers = [1,2 [1, 2 [12, 123]]]
 
 
 //JSON
@@ -11,3 +11,5 @@ type JSONArray = JSONValue[]
 type JSONValue = JSONPrimitive | JSONObject | JSONArray;
 
 function isJSON(value: JSONValue){}
+
+export {}

@@ -4,5 +4,5 @@
 
 
 // Interfaces
-// 1. When we want expand interface in future
+// 1. When we want expands interface in future
 // 2. Class with implements

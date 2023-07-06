@@ -7,3 +7,5 @@ function head(value: any ): any{
 
 const x = head("str")
 const y = head([1, 2, 3])
+
+export {}

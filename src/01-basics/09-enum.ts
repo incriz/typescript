@@ -50,3 +50,5 @@ function upGrade(user: {level: Grades}){
         user.level = Grades.Middle
     }
 }
+
+export {}

@@ -12,7 +12,7 @@ type User = {
     password: string;
 }
 
-type User = {
+type User1 = & User & {
     isOnline?: boolean;
 }
 
